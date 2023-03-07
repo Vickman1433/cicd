@@ -24,7 +24,7 @@ pipeline{
         }
         stage('Deploy'){
             steps{
-                bat 'java -jar /var/lib/jenkins/workspace/PetClinicDeclarativePipeline/target/*.jar'
+                bat 'java -jar /var/lib/jenkins/workspace/PetClinicDeclarativePipeline/target/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar'
             }
         }
         }
