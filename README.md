@@ -1,2 +1,0 @@
-# cicd
-pruebas de conexión
